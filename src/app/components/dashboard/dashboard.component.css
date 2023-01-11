@@ -1,0 +1,30 @@
+--------ESTO ES DE DASHBOARD--------------
+.nav-link{
+    color: #000000;
+    border: 2px;
+    border-radius:6px;
+}
+<!----textos----------->
+p.text-justify {font-family:italic;}
+p.text-justify{font-size:large;}
+h5{font-size: 25px;}
+h5{font-weight: bold;}
+h3{color:rgb(0, 0, 0);}
+h5{
+    text-align: center;
+}
+h5.educacion{
+    margin-top:1em;
+    text-decoration: underline;
+}
+h5.laboral{
+    margin-top:1em;
+    text-decoration: underline;
+}
+h5.proyecto{
+    margin-top:1em;
+    text-decoration: underline;
+}
+h5.mi{
+    text-decoration: underline;
+}

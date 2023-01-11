@@ -1,0 +1,88 @@
+/*-----------------BARRA PROGRESO------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+.contenedor{
+    margin:auto;
+    width: 100vh;
+    height:300px;
+display:inline;
+flex-wrap:wrap;
+align-items:center;
+
+}
+.barra{
+    width:350px;
+    height:30px;
+    background: rgba(225, 225,225,0.5);
+    border-radius:10px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.1);
+    border-right: 3px solid rgba(225,225,225,0.5);
+    border-bottom: 3px solid rgba(225,225,225,0.5);
+}
+h2{
+    text-align:center;
+
+}
+.progreso{
+    width: var(--w);
+    height:100%;
+    background:rgba(255, 44, 255, 0.096);
+    border-radius:10px;
+    animation:Aumentar 5s ease;
+
+}
+@keyframes Aumentar{
+    0%{width:0%;}
+    100%{width: var(--w)}
+}
+.habilidades:active .progreso {
+    animation:Aumentar 5s ease
+}
+.col-md-6{
+    width:1000%;
+    height:1000%;
+    margin-left:3em;
+    margin-right:1em;
+    background:rgb(255, 255, 255);
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+.icono {
+    font-size: 55px;
+    color:rgba(204, 18, 164, 0.877);
+    padding-top: 0.5em;
+    padding-right:1em;
+    padding-bottom:2em;
+    padding-left:2.5em;
+
+  
+
+}
+
+img.unlam{
+    width:300px;
+    height:200px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top:-5em;
+    margin-left:2em;
+    margin-bottom:-1em;
+
+}
+.Expericono{
+    font-size: 55px;
+    color:rgba(204, 18, 164, 0.877);
+    padding-top: 0.5em;
+    padding-right:1em;
+    padding-bottom:2em;
+    padding-left:2.5em;
+
+}

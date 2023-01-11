@@ -1,0 +1,12 @@
+/*barra de navegacion*/
+.navbar.navbar-expand-lg.bg{
+    background-color:rgb(247, 195, 221)
+}
+
+
+
+.carousel-item > img { 
+    max-height: 50vh}
+section.about{
+    margin: top 25px;
+}
