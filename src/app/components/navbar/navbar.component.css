@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background:url(https://i.pinimg.com/564x/e6/21/a1/e621a14907dec442c13bf61aa4d46290.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+/*barra de navegacion*/
+.navbar.navbar-expand-lg.bg{
+    background-color:rgb(247, 195, 221)
+}
+.list-group-item{
+    background-color:transparent;
+    border:0px;
+    
+}
+.list-group-horizonta{
+    color:transparent;
+}
+
+/*-----------------COLOR EN LOS ICONOS----------------------*/
+.fa-instagram:hover{
+    cursor:pointer;
+    color:#FF33DA;
+    
+}
+.fa-facebook:hover{
+cursor:pointer;
+color:blue;
+
+}
+.fa-linkedin:hover{
+    cursor:pointer;
+    color:#2984D5;
+}
+.fa-user:hover{
+    cursor:pointer;
+    color:rgb(7, 102, 58);
+    background-color:transparent;
+    color:aliceblue;
+}
+.fa-instagram:hover{
+    cursor:pointer;
+    color:rgb(180, 49, 141)
+}
+.fa-facebook:hover{
+    cursor:pointer;
+    color:rgb(9, 6, 192)
+}
+.fa-linkedin:hover{
+    cursor:pointer;
+    color:rgb(22, 83, 163)
+}
+.fa-user:hover{
+    cursor:pointer;
+    color:rgb(231, 137, 13)
+}
+.fa-github:hover{
+    cursor:pointer;
+    color:rgb(195, 13, 231)
+}
+.carousel-item > img { 
+    max-height: 50vh}
+section.about{
+    margin: top 25px;
+}
